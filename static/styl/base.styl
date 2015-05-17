@@ -1,0 +1,133 @@
+
+box-shadow()
+    -webkit-box-shadow arguments
+    -moz-box-shadow arguments
+    box-shadow arguments
+
+gradient()
+  -webkit-linear-gradient arguments
+  -moz-linear-gradient arguments
+  linear-gradient arguments
+
+body
+  background-color #1379af
+  font-family "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif
+  font-weight 200
+
+main
+  width 700px
+  margin 0 auto
+  position relative
+
+  .nav-holder
+    position absolute
+    left -210px
+    top 0
+
+    nav
+      float left
+      position fixed
+      top 20px
+      width 180px
+      text-align right
+
+      div
+        margin-bottom 13px
+        a
+          padding 2px
+          text-decoration none
+          font-size 12px
+          color rgba(255,255,255,0.8)
+          font-weight 300
+          line-height 16px
+
+          &:hover
+            background-color rgba(255,255,255,0.8)
+            color #1379af
+
+
+section
+  padding 10px 20px 20px 20px
+  background-color white
+  margin-bottom 15px
+  box-shadow 0 1px 6px rgba(0,0,0,0.3)
+  font-size 15px
+  line-height 26px
+
+  strong
+    font-weight 400
+
+  h1
+    font-size 18px
+    line-height 30px
+    color  #39c
+    font-weight 400
+    border-bottom solid 1px #ddd
+
+  h2
+    font-size 16px
+    line-height 30px
+    color  #888
+    font-weight 400
+    margin-top 25px
+    margin-bottom 25px
+    border-bottom solid 1px #ddd
+
+
+table
+  border-spacing 0
+  border-collapse collapse
+  width 100%
+
+  tr
+    font-weight 200
+
+    a
+      color #39c
+      text-decoration none
+  th
+    font-weight 400
+    background linear-gradient(#fafafa, #f0f0f0)
+
+  th, td
+    text-align left
+    font-size 13px
+    padding 6px 13px
+    border 1px solid rgb(220,220,220)
+
+
+
+/* Table Sorter */
+th.sort-header::-moz-selection
+  background transparent
+
+th.sort-header::selection
+  background transparent
+
+th.sort-header
+  cursor pointer
+
+  &::-moz-selection, &::selection
+    background transparent
+
+table th.sort-header:after
+  content ''
+  float right
+  margin-top 7px
+  border-width 0 4px 4px
+  border-style solid
+  border-color #404040 transparent
+  visibility hidden
+
+table th.sort-header:hover:after
+  visibility visible
+
+table th.sort-up:after,
+table th.sort-down:after,
+table th.sort-down:hover:after
+  visibility visible
+  opacity 0.4
+
+table th.sort-up:after
+  border-bottom none
+  border-width 4px 4px 0
