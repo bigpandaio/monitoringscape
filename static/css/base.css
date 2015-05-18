@@ -26,7 +26,7 @@ main .nav-holder {
 main .nav-holder nav {
   float: left;
   position: fixed;
-  top: 115px;
+  top: 118px;
   width: 180px;
   text-align: right;
 }
@@ -59,6 +59,13 @@ section {
   font-size: 15px;
   line-height: 26px;
 }
+section a {
+  color: #39c;
+  text-decoration: none;
+}
+section a:hover {
+  text-decoration: underline;
+}
 section strong {
   font-weight: 400;
 }
@@ -87,8 +94,6 @@ table tr {
   font-weight: 200;
 }
 table tr a {
-  color: #39c;
-  text-decoration: none;
   font-size: 14px;
 }
 table th {
