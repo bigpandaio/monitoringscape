@@ -93,6 +93,9 @@ table {
 table tr {
   font-weight: 200;
 }
+table tr.row {
+  height: 70px;
+}
 table tr a {
   font-size: 14px;
 }

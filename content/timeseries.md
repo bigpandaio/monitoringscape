@@ -14,13 +14,13 @@ Use time-series databases to **store** and **visualize** your performance metric
 
 ## Tool Overview
 {{% tools %}}
-  {{% tool timeseries Cacti         cacti "http://www.cacti.net"                "The Cacti Group"       2001  "Linux, Open Source" %}}
-  {{% tool timeseries Cube          cube  "http://square.github.io/cube/"       Square                  2011  "Cross-Platform, Open Source" %}}
-  {{% tool timeseries Druid         druid "http://druid.io/"                    Metamarkets             2012  "Cross-Platform, Open Source" %}}
-  {{% tool timeseries Graphite      graphite "http://graphite.wikidot.com"      "The Graphite Project"  2008  "Cross-Platform, Open Source" %}}
-  {{% tool timeseries InfluxDB      grafana "http://influxdb.com"               InfluxDB                2013  "Cross-Platform, Open Source" %}}
-  {{% tool timeseries Instrumental  instrumental "https://instrumentalapp.com"  "Expected Behavior"     2011  "SaaS" %}}
-  {{% tool timeseries Librato       librato "https://www.librato.com"           SolarWinds              2011  "SaaS" %}}
-  {{% tool timeseries OpenTSDB      grafana "http://opentsdb.net"               OpenTSDB                2010  "Cross-Platform, Open Source" %}}
-  {{% tool timeseries RRDtool       rrdtool "https://oss.oetiker.ch/rrdtool"    "Tobias Oetiker"        1999  "Cross-Platform, Open Source" %}}
+  {{% tool timeseries Cacti         cacti "http://www.cacti.net"                "Open Source" 2001  "On Prem" %}}
+  {{% tool timeseries Cube          cube  "http://square.github.io/cube/"       "Open Source" 2011  "On Prem" %}}
+  {{% tool timeseries Druid         druid "http://druid.io/"                    "Open Source" 2012  "On Prem" no-screenshot %}}
+  {{% tool timeseries Graphite      graphite "http://graphite.wikidot.com"      "Open Source" 2008  "On Prem & SaaS" %}}
+  {{% tool timeseries InfluxDB      grafana "http://influxdb.com"               "Open Source" 2013  "On Prem & SaaS" %}}
+  {{% tool timeseries Instrumental  instrumental "https://instrumentalapp.com"  ""            2011  "SaaS" %}}
+  {{% tool timeseries Librato       librato "https://www.librato.com"           "Acquired by SolarWinds" 2011  "SaaS" %}}
+  {{% tool timeseries OpenTSDB      grafana "http://opentsdb.net"               "Open Source" 2010  "On Prem" %}}
+  {{% tool timeseries RRDtool       rrdtool "https://oss.oetiker.ch/rrdtool"    "Open Source" 1999  "On Prem" %}}
 {{% /tools %}}
