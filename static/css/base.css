@@ -2,6 +2,16 @@ body {
   background-color: #1379af;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
+  padding-bottom: 500px;
+}
+#monitoringscape {
+  color: rgba(255,255,255,0.95);
+  font-size: 40px;
+  margin: 35px 0;
+  text-align: center;
+}
+#monitoringscape span {
+  color: rgba(255,255,255,0.65);
 }
 main {
   width: 700px;
@@ -16,7 +26,7 @@ main .nav-holder {
 main .nav-holder nav {
   float: left;
   position: fixed;
-  top: 20px;
+  top: 115px;
   width: 180px;
   text-align: right;
 }
@@ -32,7 +42,11 @@ main .nav-holder nav div a {
   line-height: 16px;
 }
 main .nav-holder nav div a:hover {
-  background-color: rgba(255,255,255,0.8);
+  background-color: #eef;
+  color: #1379af;
+}
+main .nav-holder nav div a.selected {
+  background-color: #eef;
   color: #1379af;
 }
 section {
@@ -75,6 +89,7 @@ table tr {
 table tr a {
   color: #39c;
   text-decoration: none;
+  font-size: 14px;
 }
 table th {
   font-weight: 400;

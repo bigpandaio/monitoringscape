@@ -7,26 +7,47 @@
   <script src='/js/tablesort.js'></script>
   <script src='/js/smooth-scroll.js'></script>
   <script>
+
+    function selectSection() {
+      var pos = $(window).scrollTop()
+      var cat = null
+      $('section h1').each(function(i, el) {
+        if (pos + 120 > $(el).offset().top) {
+          cat = $(el).attr('id')
+        }
+      })
+
+      if (cat) {
+        $('nav a').removeClass('selected')
+        $('#nav-'+cat).addClass('selected')
+      }
+    }
+
     $(document).ready(function() {
       smoothScroll.init()
       $("table").each(function(i, el) {
         new Tablesort(el)
       })
+      selectSection()
+      $(window).scroll(selectSection)
     })
   </script>
 </head>
 <body>
+
 
   <main>
     <div class="nav-holder">
       <nav>
         {{ range .Data.Pages.ByWeight }}
           <div>
-            <a data-scroll href="#{{.Slug}}">{{.Title}}</a>
+            <a id="nav-{{.Slug}}" data-scroll href="#{{.Slug}}">{{.Title}}</a>
           </div>
         {{ end }}
       </nav>
     </div>
+
+    <div id="monitoringscape">monitoring<span>scape<span></div>
 
     {{ range .Data.Pages.ByWeight }}
         {{ if eq .Type  "section" }}

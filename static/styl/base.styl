@@ -13,6 +13,16 @@ body
   background-color #1379af
   font-family "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif
   font-weight 200
+  padding-bottom 500px
+
+#monitoringscape
+  color rgba(255, 255, 255, 0.95)
+  font-size 40px
+  margin 35px 0
+  text-align center
+
+  span
+    color rgba(255, 255, 255, 0.65)
 
 main
   width 700px
@@ -27,7 +37,7 @@ main
     nav
       float left
       position fixed
-      top 20px
+      top 115px
       width 180px
       text-align right
 
@@ -42,7 +52,11 @@ main
           line-height 16px
 
           &:hover
-            background-color rgba(255,255,255,0.8)
+            background-color #eef
+            color #1379af
+
+          &.selected
+            background-color #eef
             color #1379af
 
 
@@ -85,6 +99,7 @@ table
     a
       color #39c
       text-decoration none
+      font-size 14px
   th
     font-weight 400
     background linear-gradient(#fafafa, #f0f0f0)
