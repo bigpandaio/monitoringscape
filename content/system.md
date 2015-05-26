@@ -21,20 +21,22 @@ System monitoring tools frequently employ a **plugin architecture**, making it e
 ## Tool Overview
 {{% tools %}}
   {{% tool system Boundary        boundary "http://www.boundary.com"        ""          2011                "SaaS" %}}
-  {{% tool system collectd    collectd    "https://collectd.org/"       "Collection only" 2005     "On Prem" no-screenshot %}}
-  {{% tool system CopperEgg   copperegg "http://copperegg.com/"         ""          2010                "SaaS" no-screenshot %}}
-  {{% tool system Datadog     datadog "https://www.datadoghq.com/"      ""          2010                "SaaS" no-screenshot %}}
-  {{% tool system Ganglia     ganglia "http://ganglia.info/"            "Open Source"    2001     "On Prem" no-screenshot %}}
-  {{% tool system Icinga      icinga "https://www.icinga.org/"          "Open Source, Forked from Nagios" 2009       "On Prem" no-screenshot %}}
-  {{% tool system LogicMonitor   logicmonitor "http://www.logicmonitor.com/" ""          2008     "SaaS" no-screenshot %}}
-  {{% tool system Munin  munin "http://munin-monitoring.org/"           "Open Source"    2006     "On Prem" no-screenshot %}}
-  {{% tool system Nagios    nagios "https://www.nagios.org/"  "Open Source"    1999      "On Prem" no-screenshot %}}
-  {{% tool system OpenNMS   opennms "http://www.opennms.org/"  "Open Source"    2000     "On Prem" no-screenshot %}}
-  {{% tool system OpsView   opsview "http://www.opsview.com/"  "Open Source, Forked from Nagios"    2003    "On Prem" no-screenshot %}}
-  {{% tool system Scout     scout "https://scoutapp.com/"  ""    2008    "SaaS" no-screenshot %}}
-  {{% tool system Sensu     sensu "https://sensuapp.org/"  "Open Source"    2011    "On Prem" no-screenshot %}}
-  {{% tool system ServerDensity   serverdensity "https://www.serverdensity.com/"  "Server monitoring only"    2013    "SaaS" no-screenshot %}}
-  {{% tool system statsd   statsd "https://github.com/etsy/statsd"  "Open Source"         2012    "On Prem" no-screenshot %}}
-  {{% tool system Zabbix   zabbix "http://www.zabbix.com/"  "Open Source"    1998    "On Prem" no-screenshot %}}
-  {{% tool system Zenoss   zennos "http://www.zenoss.com/"  "Open Source"    2002    "On Prem" no-screenshot %}}
+  {{% tool system Centreon   centreon "https://www.centreon.com"         ""          2005                "On Prem" %}}
+  {{% tool system collectd    collectd    "https://collectd.org/"       "Open Source, Collection only" 2005     "On Prem" no-screenshot %}}
+  {{% tool system CopperEgg   copperegg "http://copperegg.com/"         ""          2010                "SaaS" %}}
+  {{% tool system Datadog     datadog "https://www.datadoghq.com/"      ""          2010                "SaaS" %}}
+  {{% tool system "Dataloop.io" dataloop "https://www.dataloop.io/"      ""          2014                "SaaS" %}}
+  {{% tool system Ganglia     ganglia "http://ganglia.info/"            "Open Source"    2001     "On Prem" %}}
+  {{% tool system Icinga      icinga "https://www.icinga.org/"          "Open Source, Forked from Nagios" 2009       "On Prem" %}}
+  {{% tool system LogicMonitor   logicmonitor "http://www.logicmonitor.com/" ""          2008     "SaaS" %}}
+  {{% tool system Munin     munin "http://munin-monitoring.org/"           "Open Source"    2006     "On Prem" %}}
+  {{% tool system Nagios    nagios "https://www.nagios.org/"  "Open Source"     1999      "On Prem" %}}
+  {{% tool system OpenNMS   opennms "http://www.opennms.org/"  "Open Source"    2000     "On Prem" %}}
+  {{% tool system OpsView   opsview "http://www.opsview.com/"  "Open Source, Forked from Nagios"    2003    "On Prem" %}}
+  {{% tool system Scout     scout "https://scoutapp.com/"  ""    2008    "SaaS" %}}
+  {{% tool system Sensu     sensu "https://sensuapp.org/"  "Open Source"    2011    "On Prem" %}}
+  {{% tool system ServerDensity   serverdensity "https://www.serverdensity.com/"  "Server monitoring only"    2013    "SaaS" %}}
+  {{% tool system statsd   statsd "https://github.com/etsy/statsd"  "Open Source, Collection Only"         2012    "On Prem" no-screenshot %}}
+  {{% tool system Zabbix   zabbix "http://www.zabbix.com/"  "Open Source"    1998    "On Prem" %}}
+  {{% tool system Zenoss   zenoss "http://www.zenoss.com/"  "Open Source"    2002    "On Prem" %}}
 {{% /tools %}}

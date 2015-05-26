@@ -10,19 +10,30 @@ gradient()
   linear-gradient arguments
 
 body
-  background-color #1379af
+  background-color #111
   font-family "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif
   font-weight 200
-  padding-bottom 500px
+  padding 0
+  margin 0
 
-#monitoringscape
-  color rgba(255, 255, 255, 0.95)
-  font-size 40px
-  margin 35px 0
-  text-align center
+#background
+  position fixed
+  top 0
+  left 0
+  height 100%
+  width 100%
 
-  span
-    color rgba(255, 255, 255, 0.65)
+  background url(/bg.jpg) no-repeat center center fixed
+
+  -webkit-background-size cover
+  -moz-background-size cover
+  -o-background-size cover
+  background-size cover
+
+  -webkit-filter blur(20px)
+  -moz-filter blur(20px)
+  -o-filter blur(20px)
+  filter blur(20px)
 
 main
   width 700px
@@ -31,40 +42,57 @@ main
 
   .nav-holder
     position absolute
-    left -210px
+    left -190px
     top 0
 
     nav
       float left
       position fixed
-      top 118px
-      width 180px
+      top 0
+      height 100%
+      width 170px
       text-align right
+      background-color #666
+      padding-right 20px
+
+      #monitoringscape
+        color rgba(255, 255, 255, 0.95)
+        font-size 20px
+        margin-bottom 40px
+
+        span
+          color rgba(255, 255, 250, 0.65)
 
       div
         margin-bottom 13px
+        margin-top 22px
+
         a
           padding 2px
           text-decoration none
-          font-size 12px
+          font-size 13px
           color rgba(255,255,255,0.8)
-          font-weight 300
-          line-height 16px
+          font-weight 200
+          line-height 20px
 
           &:hover
-            background-color #eef
-            color #1379af
+            background-color #eee
+            color #666
 
           &.selected
-            background-color #eef
-            color #1379af
+            background-color #eee
+            color #666
 
+        &.icons
+          a
+            font-size 20px
+            margin-left 5px
+
+.sections
+  background-color white
 
 section
-  padding 10px 20px 20px 20px
-  background-color white
-  margin-bottom 15px
-  box-shadow 0 1px 6px rgba(0,0,0,0.3)
+  padding 25px 50px 25px 50px
   font-size 15px
   line-height 26px
 
@@ -78,11 +106,10 @@ section
     font-weight 400
 
   h1
-    font-size 18px
-    line-height 30px
-    color  #39c
+    font-size 35px
+    line-height 35px
+    color  #333
     font-weight 400
-    border-bottom solid 1px #ddd
 
   h2
     font-size 16px
