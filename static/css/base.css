@@ -1,25 +1,13 @@
 body {
-  background-color: #111;
+  background: url("/bg.jpg") no-repeat center center fixed;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
   padding: 0;
   margin: 0;
-}
-#background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: url("/bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -webkit-filter: blur(20px);
-  -moz-filter: blur(20px);
-  -o-filter: blur(20px);
-  filter: blur(20px);
 }
 main {
   width: 700px;
@@ -38,7 +26,7 @@ main .nav-holder nav {
   height: 100%;
   width: 170px;
   text-align: right;
-  background-color: #666;
+  background-color: #373737;
   padding-right: 20px;
 }
 main .nav-holder nav #monitoringscape {

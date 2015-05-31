@@ -1,12 +1,29 @@
 ---
-title: Logging
+title: Log Aggregators
 slug: logging
 weight: 4
 type: section
 ---
-* ELK Stack
-* graylog
-* Loggly
-* papertrail
-* Splunk
-* Sumo Logic
+
+Essentially all kinds of software output log files. Logs provide **low-level visibility on application behavior**; they are extremely useful for **debugging**, and can help with tracking **recurring errors**.
+
+The rise of distributed systems resulted in an **explosion in the number of log files and log lines**. Locating an individual transaction in the ocean of log files became impossible. Log aggregators were invented to address this issue. Similarly to the way Google crawls and indexes webpages, log aggregators collect and index all your log data. This allows you to **quickly search** for specific messages, errors and patterns across all your log files.
+
+## Common Features
+
+* Query language for searching logs
+* Timelines & histograms
+* Automatic alerts
+* Customizable dashboards
+* Aggregation functions & analytics
+
+## Tool Overview
+
+{{% tools %}}
+  {{% tool logging "ELK Stack" elk "https://www.elastic.co" "ElasticSearch, LogStash & Kibana. Open Source"          2011                "On Prem" %}}
+  {{% tool logging Graylog   graylog "https://www.graylog.org/"   "Open Source"          2010                "On Prem" %}}
+  {{% tool logging Loggly    loggly    "https://www.loggly.com/"       "" 2009     "SaaS" %}}
+  {{% tool logging Papertrail   papertrail "https://papertrailapp.com/"         ""          2011                "SaaS" %}}
+  {{% tool logging Splunk     splunk "http://www.splunk.com/"      ""          2003                "On Prem" %}}
+  {{% tool logging SumoLogic  sumologic "https://www.sumologic.com/"      ""          2010                "SaaS" %}}
+{{% /tools %}}
