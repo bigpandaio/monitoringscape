@@ -1,5 +1,5 @@
 ---
-title: Mobile App Monitoring
+title: Mobile APM
 slug: mobile-monitoring
 weight: 8
 type: section

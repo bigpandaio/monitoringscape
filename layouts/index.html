@@ -37,22 +37,20 @@
 <body>
 
   <main>
-    <div class="nav-holder">
-      <nav>
-        <div id="monitoringscape">monitoring<span>scape<span></div>
+    <nav>
+      <div id="monitoringscape">monitoring<span>scape<span></div>
 
-        {{ range .Data.Pages.ByWeight }}
-          <div>
-            <a id="nav-{{.Slug}}" data-scroll href="#{{.Slug}}">{{.Title}}</a>
-          </div>
-        {{ end }}
-        <div class="icons">
-          <a href="https://github.com/bigpandaio/monitoringscape/tree/master/content"><i class="fa fa-github"></i></a>
-          <a href="https://twitter.com/home?status=bigpanda.io/monitoringscape%20%23monitoringscape"><i class="fa fa-twitter"></i></a>
-          <a href="https://www.linkedin.com/shareArticle?mini=true&url=bigpanda.io/monitoringscape&title=MonitoringScape"><i class="fa fa-linkedin"></i></a>
+      {{ range .Data.Pages.ByWeight }}
+        <div>
+          <a id="nav-{{.Slug}}" data-scroll href="#{{.Slug}}">{{.Title}}</a>
         </div>
-      </nav>
-    </div>
+      {{ end }}
+      <div class="icons">
+        <a href="https://github.com/bigpandaio/monitoringscape/tree/master/content"><i class="fa fa-github"></i></a>
+        <a href="https://twitter.com/bigpanda"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/company/bigpanda"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </nav>
 
     <div class="sections">
       {{ range .Data.Pages.ByWeight }}
@@ -61,6 +59,8 @@
           {{ end }}
       {{ end }}
     </div>
+
+    <div style="clear: both"/>
   </main>
 </body>
 </html>

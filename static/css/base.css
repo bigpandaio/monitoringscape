@@ -1,6 +1,6 @@
 body {
   background: url("/bg.jpg") no-repeat center center fixed;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 200;
   padding: 0;
   margin: 0;
@@ -10,38 +10,37 @@ body {
   background-size: cover;
 }
 main {
-  width: 700px;
+  width: 960px;
   margin: 0 auto;
   position: relative;
+  background-color: #fff;
+  -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.7);
+  -moz-box-shadow: 0 10px 20px rgba(0,0,0,0.7);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.7);
 }
-main .nav-holder {
-  position: absolute;
-  left: -190px;
-  top: 0;
-}
-main .nav-holder nav {
+main nav {
+  padding-left: 30px;
   float: left;
   position: fixed;
   top: 0;
   height: 100%;
   width: 170px;
-  text-align: right;
   background-color: #373737;
-  padding-right: 20px;
 }
-main .nav-holder nav #monitoringscape {
+main nav #monitoringscape {
   color: rgba(255,255,255,0.95);
   font-size: 20px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
-main .nav-holder nav #monitoringscape span {
+main nav #monitoringscape span {
   color: rgba(255,255,250,0.65);
 }
-main .nav-holder nav div {
+main nav div {
   margin-bottom: 13px;
-  margin-top: 22px;
+  margin-top: 16px;
 }
-main .nav-holder nav div a {
+main nav div a {
   padding: 2px;
   text-decoration: none;
   font-size: 13px;
@@ -49,43 +48,49 @@ main .nav-holder nav div a {
   font-weight: 200;
   line-height: 20px;
 }
-main .nav-holder nav div a:hover {
-  background-color: #eee;
-  color: #666;
+main nav div a:hover {
+  font-weight: bold;
+  color: #fff;
 }
-main .nav-holder nav div a.selected {
-  background-color: #eee;
-  color: #666;
+main nav div a.selected {
+  font-weight: bold;
+  color: #fff;
 }
-main .nav-holder nav div.icons a {
+main nav div.icons a {
   font-size: 20px;
   margin-left: 5px;
 }
-.sections {
-  background-color: #fff;
+main .sections {
+  float: right;
+  width: 750px;
+/* Table Sorter */
 }
-section {
+main .sections img {
+  border: 1px solid #ddd;
+}
+main .sections section {
   padding: 25px 50px 25px 50px;
-  font-size: 15px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 28px;
 }
-section a {
+main .sections section a {
   color: #39c;
   text-decoration: none;
 }
-section a:hover {
+main .sections section a:hover {
   text-decoration: underline;
 }
-section strong {
+main .sections section strong {
   font-weight: 400;
 }
-section h1 {
-  font-size: 35px;
-  line-height: 35px;
+main .sections section h1 {
+  font-size: 40px;
+  line-height: 40px;
   color: #333;
-  font-weight: 400;
+  font-weight: 600;
+  border-bottom: solid 1px #ddd;
 }
-section h2 {
+main .sections section h2 {
   font-size: 16px;
   line-height: 30px;
   color: #888;
@@ -94,46 +99,45 @@ section h2 {
   margin-bottom: 25px;
   border-bottom: solid 1px #ddd;
 }
-table {
+main .sections table {
   border-spacing: 0;
   border-collapse: collapse;
   width: 100%;
 }
-table tr {
+main .sections table tr {
   font-weight: 200;
 }
-table tr.row {
+main .sections table tr.row {
   height: 70px;
 }
-table tr a {
+main .sections table tr a {
   font-size: 14px;
 }
-table th {
+main .sections table th {
   font-weight: 400;
   background: linear-gradient(#fafafa, #f0f0f0);
 }
-table th,
-table td {
+main .sections table th,
+main .sections table td {
   text-align: left;
   font-size: 13px;
   padding: 6px 13px;
   border: 1px solid #dcdcdc;
 }
-/* Table Sorter */
-th.sort-header::-moz-selection {
+main .sections th.sort-header::-moz-selection {
   background: transparent;
 }
-th.sort-header::selection {
+main .sections th.sort-header::selection {
   background: transparent;
 }
-th.sort-header {
+main .sections th.sort-header {
   cursor: pointer;
 }
-th.sort-header::-moz-selection,
-th.sort-header::selection {
+main .sections th.sort-header::-moz-selection,
+main .sections th.sort-header::selection {
   background: transparent;
 }
-table th.sort-header:after {
+main .sections table th.sort-header:after {
   content: '';
   float: right;
   margin-top: 7px;
@@ -142,16 +146,16 @@ table th.sort-header:after {
   border-color: #404040 transparent;
   visibility: hidden;
 }
-table th.sort-header:hover:after {
+main .sections table th.sort-header:hover:after {
   visibility: visible;
 }
-table th.sort-up:after,
-table th.sort-down:after,
-table th.sort-down:hover:after {
+main .sections table th.sort-up:after,
+main .sections table th.sort-down:after,
+main .sections table th.sort-down:hover:after {
   visibility: visible;
   opacity: 0.4;
 }
-table th.sort-up:after {
+main .sections table th.sort-up:after {
   border-bottom: none;
   border-width: 4px 4px 0;
 }

@@ -1,5 +1,5 @@
 ---
-title: Application Performance Monitoring
+title: APM
 slug: application-performance-monitoring
 weight: 5
 type: section
@@ -11,6 +11,7 @@ APMs provide important visibility that would be very hard to achieve otherwise.
 APM agents perform **code-level instrumentation** and therefore require language-specific implementations. Your applications might incur small performance penalties when monitored using APMs.
 
 ## Common Features
+
 * Latency, throughput & error-rate measurement
 * Geography-based segmentation
 * Common errors & occurrence frequency

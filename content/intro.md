@@ -10,7 +10,7 @@ We now have a choice of more than 100 monitoring tools allowing for **excellent 
 
 This site is your guide to the new, exciting world of modern monitoring.
 
-<a href="/poster.png" target="_blank"><img src="/poster.png" width="590" /></a>
+<a href="/poster.pdf" target="_blank"><img src="/poster.png"/>Download full resolution version (8MB)</a>
 
 ## Contribute
 * [Suggest an edit](https://github.com/bigpandaio/monitoringscape/issues)
