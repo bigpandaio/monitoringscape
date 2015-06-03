@@ -7,7 +7,7 @@ type: section
 
 Web & user monitoring tools measure how your application performs "from the outside." They simulate traffic to your application from various geographies and alert you on failures and timeouts (**Synthetic Monitoring**). Additionally, they can be embedded into your web frontends or mobile applications in order to track real failures arising in your users' clients (**Real User Monitoring**).
 
-Unlike monitoring tools that track technical performance metrics, web & user monitoring metrics represent **actual user experience**. Web & user monitoring alerts almost always indicate that you have a real issue that must be resolved promptly. However, these alerts can't provide much context as to *what* is causing the problem. It is recommended to complement web & user monitoring tools with [System Monitoring](#system-monitoring) and [Application Performance Monitoring](#application-performance-monitoring) tools.
+Unlike monitoring tools that track technical performance metrics, web & user monitoring metrics are tied directly to **actual user experience**. Web & user monitoring alerts almost always indicate that you have a real issue that must be resolved promptly. However, these alerts can't provide much context as to *what* is causing the problem. It is recommended to complement web & user monitoring tools with [System Monitoring](#system-monitoring) and [Application Performance Monitoring](#application-performance-monitoring) tools.
 
 ## Common Features
 

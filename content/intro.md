@@ -4,7 +4,7 @@ slug: introduction
 weight: 1
 type: section
 ---
-The past ten years have seen a drastic shift in how we build applications: clouds, containers and micro-services displaced the old paradigm of static, monolithic infrastructure. Thankfully, the monitoring stack kept up with the times.
+The past ten years have seen a drastic shift in how we build applications: clouds, containers and micro-services displaced the old paradigm of static, monolithic infrastructure. The need for operational visibility has grown tenfold. Thankfully, the monitoring stack kept up with the times.
 
 We now have a choice of more than 100 monitoring tools allowing for **excellent visibility of the entire stack**. The modern monitoring landscape has something for everyone: on-prem installations, SaaS applications, open-source tools and high-priced enterprise monitoring suites.
 

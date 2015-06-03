@@ -49,7 +49,6 @@ main nav div a {
   line-height: 20px;
 }
 main nav div a:hover {
-  font-weight: bold;
   color: #fff;
 }
 main nav div a.selected {
