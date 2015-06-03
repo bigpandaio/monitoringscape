@@ -1,5 +1,5 @@
 ---
-title: Log Aggregators
+title: Log Management
 slug: logging
 weight: 4
 type: section
@@ -7,7 +7,7 @@ type: section
 
 Essentially all kinds of software output log files. Logs provide **low-level visibility on application behavior**; they are extremely useful for **debugging**, and can help with tracking **recurring errors**.
 
-The rise of distributed systems resulted in an **explosion in the number of log files and log lines**. Locating an individual transaction in the ocean of log files became impossible. Log aggregators were invented to address this issue. Similarly to the way Google crawls and indexes webpages, log aggregators collect and index all your log data. This allows you to **quickly search** for specific messages, errors and patterns across all your log files.
+The rise of distributed systems resulted in an **explosion in the number of log files and log lines**. Locating an individual transaction in the ocean of log files became impossible. Log management tools were invented to address this issue. Similarly to the way Google crawls and indexes webpages, log management tools collect and index all your log data. This allows you to **quickly search** for specific messages, errors and patterns across all your log files.
 
 ## Common Features
 
