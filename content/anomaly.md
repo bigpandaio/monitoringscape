@@ -1,7 +1,7 @@
 ---
 title: Anomaly Detection
 slug: anomaly-detection
-weight: 10
+weight: 11
 type: section
 ---
 * Skyline

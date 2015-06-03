@@ -1,7 +1,7 @@
 ---
 title: Mobile APM
 slug: mobile-monitoring
-weight: 8
+weight: 9
 type: section
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Enterprise Suites
 slug: enterprise-suits
-weight: 12
+weight: 13
 type: section
 ---
 
