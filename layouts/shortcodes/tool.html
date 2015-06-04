@@ -1,4 +1,3 @@
-
 {{$has_screenshot:= .Params | len | gt 8}}
 <tr class="row">
 
@@ -6,6 +5,6 @@
   <td style="text-align: center">{{.Get 5}}</td>
   <td>{{.Get 6}}</td>
   <td>{{.Get 4}}</td>
-  <td style="text-align: center">{{if $has_screenshot}}<a class="thumb" href="/screenshots/{{.Get 0}}/{{.Get 2}}.png" target="_blank"><img src="/screenshots/{{.Get 0}}/{{.Get 2}}.thumb.png"/></a>{{end}}
+  <td style="text-align: center">{{if $has_screenshot}}<a class="thumb" href="screenshots/{{.Get 0}}/{{.Get 2}}.png" target="_blank"><img src="screenshots/{{.Get 0}}/{{.Get 2}}.thumb.png"/></a>{{end}}
   </td>
 </tr>

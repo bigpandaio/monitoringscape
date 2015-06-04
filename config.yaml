@@ -1,6 +1,5 @@
-baseurl: "http://yourSiteHere/"
+baseurl: "/"
 languageCode: "en-us"
-title: "My New Hugo Site"
-
+titile: "MonitoringScape"
 taxonomies:
   tool: "tools"

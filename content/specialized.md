@@ -5,7 +5,7 @@ weight: 12
 type: section
 ---
 
-As the saying goes, **do you one thing and do it well**. This category includes monitoring tools that specialize in specific use-cases or specific infrastructure vendors.
+As the saying goes, **do one thing and do it well**. This category includes monitoring tools that specialize in specific use-cases or specific infrastructure vendors.
 
 ## Tool Overview
 
