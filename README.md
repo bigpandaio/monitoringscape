@@ -18,7 +18,7 @@ The MonitoringScape poster is updated once a quarter, based on the latest versio
 ### How to Build
 1. Clone this repo
 2. Install [hugo](http://www.gohugo.io)
-3. In the root dir, run `hugo server -w <prject-dir>`
+3. In the root dir, run `hugo server -w <project-dir>`
 4. Open [localhost:1313](localhost:1313) in the browser
 
 ### How to Edit
