@@ -28,4 +28,5 @@ To update a tool's screenshot, upload an image to the `screenshots` directory. P
 
 ### License
 The MonitoringScape site and poster are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
 All logos and product screenshots are property of their respective owners.
