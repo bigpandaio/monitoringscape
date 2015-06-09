@@ -27,4 +27,5 @@ In the `content` directory you will find markdown file for each category. Edit t
 To update a tool's screenshot, upload an image to the `screenshots` directory. Please provide a full sized screenshot and a .thumb file with 60px height.
 
 ### License
-
+The MonitoringScape site and poster are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+All logos and product screenshots are property of their respective owners.
