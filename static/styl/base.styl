@@ -23,6 +23,13 @@ body
   background-size cover
 
 
+.monitoringscape
+  color rgba(255, 255, 255, 0.95)
+  font-size 20px
+
+  span
+    color rgba(255, 255, 250, 0.65)
+
 main
   width 960px
   margin 0 auto
@@ -31,6 +38,10 @@ main
   box-shadow 0 10px 20px rgba(0,0,0,0.7)
 
   nav
+    .monitoringscape
+      margin-top 20px
+      margin-bottom 30px
+
     padding-left: 30px
     float left
     position fixed
@@ -38,15 +49,6 @@ main
     height 100%
     width 170px
     background-color #373737
-
-    #monitoringscape
-      color rgba(255, 255, 255, 0.95)
-      font-size 20px
-      margin-top 20px
-      margin-bottom 30px
-
-      span
-        color rgba(255, 255, 250, 0.65)
 
     div
       margin-bottom 13px
@@ -169,3 +171,27 @@ main
     table th.sort-up:after
       border-bottom none
       border-width 4px 4px 0
+
+
+
+header
+  display none
+
+@media screen and (max-width: 890px)
+  main
+    padding-top 30px
+    width 750px
+    nav
+      display none
+
+  header
+    .monitoringscape
+      margin-top 7px
+    text-align center
+    z-index 1000
+    display block
+    position fixed
+    height 40px
+    top 0
+    width 100%
+    background-color #373737

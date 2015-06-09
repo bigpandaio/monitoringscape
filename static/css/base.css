@@ -9,6 +9,13 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.monitoringscape {
+  color: rgba(255,255,255,0.95);
+  font-size: 20px;
+}
+.monitoringscape span {
+  color: rgba(255,255,250,0.65);
+}
 main {
   width: 960px;
   margin: 0 auto;
@@ -27,14 +34,9 @@ main nav {
   width: 170px;
   background-color: #373737;
 }
-main nav #monitoringscape {
-  color: rgba(255,255,255,0.95);
-  font-size: 20px;
+main nav .monitoringscape {
   margin-top: 20px;
   margin-bottom: 30px;
-}
-main nav #monitoringscape span {
-  color: rgba(255,255,250,0.65);
 }
 main nav div {
   margin-bottom: 13px;
@@ -157,4 +159,29 @@ main .sections table th.sort-down:hover:after {
 main .sections table th.sort-up:after {
   border-bottom: none;
   border-width: 4px 4px 0;
+}
+header {
+  display: none;
+}
+@media screen and (max-width: 890px) {
+  main {
+    padding-top: 30px;
+    width: 750px;
+  }
+  main nav {
+    display: none;
+  }
+  header {
+    text-align: center;
+    z-index: 1000;
+    display: block;
+    position: fixed;
+    height: 40px;
+    top: 0;
+    width: 100%;
+    background-color: #373737;
+  }
+  header .monitoringscape {
+    margin-top: 7px;
+  }
 }
