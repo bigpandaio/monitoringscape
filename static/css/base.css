@@ -21,9 +21,6 @@ main {
   margin: 0 auto;
   position: relative;
   background-color: #fff;
-  -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.7);
-  -moz-box-shadow: 0 10px 20px rgba(0,0,0,0.7);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.7);
 }
 main nav {
   padding-left: 30px;

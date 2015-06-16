@@ -34,29 +34,62 @@
     })
   </script>
 
+
+
+  <!-- GA -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', "UA-40027187-7", { 'cookieDomain': 'bigpanda.io' });
     ga('send', 'pageview');
   </script>
+
+  <!-- KM -->
   <script>
     var _kmq = _kmq || [];
-      var _kmk = _kmk || "84ab77b86fc690e90c1b37db36da3f1946a97c90";
-      function _kms(u){
-        setTimeout(function(){
-          var d = document, f = d.getElementsByTagName('script')[0],
-          s = d.createElement('script');
-        s.type = 'text/javascript'; s.async = true; s.src = u;
-        f.parentNode.insertBefore(s, f);
-        }, 1);
-      }
-      _kms('//i.kissmetrics.com/i.js');
-      _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
-  });
+    var _kmk = _kmk || "84ab77b86fc690e90c1b37db36da3f1946a97c90";
+ function _kms(u){
+   setTimeout(function(){
+     var d = document, f = d.getElementsByTagName('script')[0],
+     s = d.createElement('script');
+   s.type = 'text/javascript'; s.async = true; s.src = u;
+   f.parentNode.insertBefore(s, f);
+   }, 1);
+ }
+ _kms('//i.kissmetrics.com/i.js');
+ _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+
+ _kmq.push(function() {
+   KM.set( {'LandingPage': window.location.pathname } );
+ });
+</script>
+
+  <!-- MRKTO -->
+  <script>
+   (function() {
+     window.marketoInit = false;
+     function initMunchkin() {
+       if(window.marketoInit === false) {
+         window.marketoInit = true;
+         mktoMunchkin("778-UNI-965");
+       }
+     }
+     var s = document.createElement('script');
+     s.type = 'text/javascript';
+     s.async = true;
+     s.src = '//munchkin.marketo.net/munchkin.js';
+     s.onreadystatechange = function() {
+       if (this.readyState == 'complete' || this.readyState == 'loaded') {
+         initMunchkin();
+       }
+     };
+     s.onload = initMunchkin;
+     document.getElementsByTagName('head')[0].appendChild(s);
+   })();
   </script>
 
+
   <meta name="title" content="MonitoringScape">
-  <meta property="og:url" content="https://www.bigpanda.io/monitoringscape">
+  <meta property="og:url" content="https://www.bigpanda.io/monitoringscape/">
   <meta property="og:title" content="MonitoringScape - A Monitoring Library for DevOps and IT Operations">
   <meta property="og:description" content="An overview of modern monitoring tools, including network, server, application, website monitoring and more.  ">
   <meta name="description" content="An overview of modern monitoring tools, including network, server, application, website monitoring and more.">
@@ -92,5 +125,24 @@
 
     <div style="clear: both"/>
   </main>
+
+
+
+  <!-- Google Code for Remarketing Tag -->
+  <script type="text/javascript">
+   /* <![CDATA[ */
+   var google_conversion_id = 951691685;
+   var google_custom_params = window.google_tag_params;
+   var google_remarketing_only = true;
+  /* ]]> */
+  </script>
+
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+
+  <noscript>
+   <div style="display:inline;">
+   <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/951691685/?value=0&amp;guid=ON&amp;script=0"/>
+   </div>
+  </noscript>
 </body>
 </html>
