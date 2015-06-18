@@ -24,6 +24,7 @@ Log files provide general-purpose visibility, but too often errors pass by unnot
 {{% tools %}}
   {{% tool errors "AirBrake" airbrake "https://airbrake.io/" "" 2008 "SaaS" %}}
   {{% tool errors "BugSnag" bugsnag "https://bugsnag.com/" "" 2012 "SaaS" %}}
+  {{% tool errors "Honeybadger" honeybadger "https://www.honeybadger.io/" "" 2012 "SaaS" %}}
   {{% tool errors "Raygun" raygun "https://raygun.io/" "" 2013 "SaaS" %}}
   {{% tool errors "Rollbar" rollbar "https://rollbar.com/" "" 2012 "SaaS" %}}
   {{% tool errors "Sentry" sentry "https://getsentry.com" "Open Source" 2010 "SaaS & On Prem" %}}
