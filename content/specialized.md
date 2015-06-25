@@ -17,5 +17,5 @@ As the saying goes, **do one thing and do it well**. This category includes moni
   {{% tool specialized "StackDriver" stackdriver "http://www.stackdriver.com/" "AWS monitoring, acquired by Google." 2012 "SaaS" %}}
   {{% tool specialized "StatusPage.io" statuspage "https://www.statuspage.io/" "Public status pages" 2013 "SaaS" %}}
   {{% tool specialized "ThousandEyes" thousandeyes "https://www.thousandeyes.com/" "Organizational network monitoring" 2010 "SaaS" %}}
-  {{% tool specialized "vRealize Operations" vrealize "http://www.vmware.com/il/products/vrealize-operations" "VMWare hybird-cloud monitoring" 2013 "On prem" %}}
+  {{% tool specialized "vRealize Operations" vrealize "http://www.vmware.com/il/products/vrealize-operations" "VMWare hybrid-cloud monitoring" 2013 "On prem" %}}
 {{% /tools %}}
