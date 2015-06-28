@@ -22,6 +22,7 @@ Event processing tools help you **automate** large parts of the **incident resol
 
 {{% tools %}}
   {{% tool processing "BigPanda" bigpanda "https://www.bigpanda.io/" "" 2012 "SaaS" %}}
+  {{% tool processing "Bosun" bosun "http://bosun.org/" "Open Source" 2013 "On Prem" %}}
   {{% tool processing "MoogSoft" moogsoft "http://www.moogsoft.com/" "" 2011 "On Prem" %}}
   {{% tool processing "Riemann" riemann "https://riemann.io/" "Open Source" 2012 "On Prem" %}}
 {{% /tools %}}
