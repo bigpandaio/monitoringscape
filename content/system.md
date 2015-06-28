@@ -22,7 +22,7 @@ System monitoring tools frequently employ a **plugin architecture**, making it e
 {{% tools %}}
   {{% tool system Boundary        boundary "http://www.boundary.com"        ""          2011                "SaaS" %}}
   {{% tool system Centreon   centreon "https://www.centreon.com"         ""          2003                "On Prem" %}}
-  {{% tool system Check_MK    checkmk "http://check-mk.org"         "Open Source"          2009                "On Prem" %}}
+  {{% tool system Check_MK    checkmk "http://mathias-kettner.com/check_mk.html"         "Open Source, Uses Nagios Core"          2009                "On Prem" %}}
   {{% tool system collectd    collectd    "https://collectd.org/"       "Open Source, Collection only" 2005     "On Prem" no-screenshot %}}
   {{% tool system CopperEgg   copperegg "http://copperegg.com/"         ""          2010                "SaaS" %}}
   {{% tool system Datadog     datadog "https://www.datadoghq.com/"      ""          2010                "SaaS" %}}
