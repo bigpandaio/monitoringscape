@@ -27,4 +27,5 @@ Use time-series databases to **store** and **visualize** your performance metric
   {{% tool timeseries Prometheus    prometheus "http://prometheus.io/"          "Open Source" 2012  "On Prem" %}}
   {{% tool timeseries RRDtool       rrdtool "https://oss.oetiker.ch/rrdtool"    "Open Source" 1999  "On Prem" %}}
   {{% tool timeseries SignalFX      signalfx "https://signalfx.com/"            "" 2013  "SaaS" %}}
+  {{% tool timeseries StatHat       stathat "http://www.stathat.com/"           "" 2011  "SaaS" %}}
 {{% /tools %}}
