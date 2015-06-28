@@ -37,7 +37,7 @@ System monitoring tools frequently employ a **plugin architecture**, making it e
   {{% tool system Scout     scout "https://scoutapp.com/"  ""    2008    "SaaS" %}}
   {{% tool system Sensu     sensu "https://sensuapp.org/"  "Open Source"    2011    "On Prem" %}}
   {{% tool system ServerDensity   serverdensity "https://www.serverdensity.com/"  "Server monitoring only"    2013    "SaaS" %}}
-  {{% tool system Spiceworks   spiceworks "http://www.spiceworks.com/free-network-monitoring-management-software/"  "Free"         2014    "On Prem" %}}
+  {{% tool system Spiceworks   spiceworks "http://www.spiceworks.com/free-network-monitoring-management-software/"  ""         2014    "On Prem" %}}
   {{% tool system statsd   statsd "https://github.com/etsy/statsd"  "Open Source, Collection Only"         2012    "On Prem" no-screenshot %}}
   {{% tool system Zabbix   zabbix "http://www.zabbix.com/"  "Open Source"    1998    "On Prem" %}}
   {{% tool system Zenoss   zenoss "http://www.zenoss.com/"  "Open Source"    2002    "On Prem" %}}
