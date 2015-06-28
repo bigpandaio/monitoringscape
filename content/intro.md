@@ -14,5 +14,5 @@ MonitoringScape is your guide to the new, exciting world of modern monitoring.  
 
 ## Contribute
 * [Suggest an edit](https://github.com/bigpandaio/monitoringscape/issues)
-* [Submit a pull request](https://github.com/bigpandaio/monitoringscape/tree/master/content)
+* [Submit a pull request](https://github.com/bigpandaio/monitoringscape)
 * Spread the word: [Twitter](https://twitter.com/home?status=bigpanda.io/monitoringscape%20%23monitoringscape), [LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=bigpanda.io/monitoringscape&title=MonitoringScape)
