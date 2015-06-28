@@ -25,6 +25,7 @@ APM agents perform **code-level instrumentation** and therefore require language
   {{% tool apm "AppDynamics" appdynamics "https://www.appdynamics.com/" "" 2008 "On Prem & SaaS" %}}
   {{% tool apm "AppNeta" appneta "http://www.appneta.com/" "" 2010 "SaaS" %}}
   {{% tool apm "Dynatrace" dynatrace "http://www.dynatrace.com/" "" 1993 "On Prem" %}}
+  {{% tool apm "DripStat" newrelic "https://dripstat.com/" "" 2015 "SaaS" %}}
   {{% tool apm "New Relic" newrelic "http://newrelic.com/" "" 2008 "SaaS" %}}
   {{% tool apm "Ruxit" ruxit "https://www.ruxit.com/" "" 2014 "SaaS" %}}
   {{% tool apm "Stackify" stackify "http://stackify.com/" "" 2012 "SaaS" %}}
