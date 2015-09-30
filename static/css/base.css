@@ -21,6 +21,7 @@ main {
   margin: 0 auto;
   position: relative;
   background-color: #fff;
+  display: block;
 }
 main nav {
   padding-left: 30px;
