@@ -161,6 +161,16 @@ main .sections table th.sort-up:after {
 header {
   display: none;
 }
+
+.mktoForm {
+  width: 150px !important;
+}
+
+.mktoAsterix {
+  display: none;
+}
+
+
 @media screen and (max-width: 890px), only screen and (max-device-width: 890px) {
   main {
     padding-top: 30px;
