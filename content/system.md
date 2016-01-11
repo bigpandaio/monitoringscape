@@ -37,6 +37,7 @@ System monitoring tools frequently employ a **plugin architecture**, making it e
   {{% tool system Scout     scout "https://scoutapp.com/"  ""    2008    "SaaS" %}}
   {{% tool system Sensu     sensu "https://sensuapp.org/"  "Open Source"    2011    "On Prem" %}}
   {{% tool system "Server Density"   serverdensity "https://www.serverdensity.com/"  "Server and web monitoring"    2009    "SaaS" %}}
+  {{% tool system "Shinken" shinken "http://shinken-monitoring.org/"  "Open Source, Nagios Core rewrite in Python"    2010    "SaaS" %}}
   {{% tool system Spiceworks   spiceworks "http://www.spiceworks.com/free-network-monitoring-management-software/"  ""         2014    "On Prem" %}}
   {{% tool system statsd   statsd "https://github.com/etsy/statsd"  "Open Source, Collection Only"         2012    "On Prem" no-screenshot %}}
   {{% tool system statsite statsite "https://github.com/armon/statsite"  "Open Source, statsd-inspired collector" 2012    "On Prem" no-screenshot %}}
