@@ -20,7 +20,7 @@ Use time-series databases to **store** and **visualize** your performance metric
   {{% tool timeseries Cube          cube  "http://square.github.io/cube/"       "Open Source" 2011  "On Prem" %}}
   {{% tool timeseries Druid         druid "http://druid.io/"                    "Open Source" 2012  "On Prem" no-screenshot %}}
   {{% tool timeseries Graphite      graphite "http://graphite.wikidot.com"      "Open Source" 2008  "On Prem & SaaS" %}}
-  {{% tool timeseries InfluxDB      grafana "http://influxdb.com"               "Open Source" 2013  "On Prem & SaaS" %}}
+  {{% tool timeseries InfluxData    influx "http://influxdb.com"               "Open Source" 2013  "On Prem & SaaS" %}}
   {{% tool timeseries Instrumental  instrumental "https://instrumentalapp.com"  ""            2011  "SaaS" %}}
   {{% tool timeseries KairosDB      kairosdb "http://kairosdb.github.io/"       "Open Source" 2013  "On Prem" %}}
   {{% tool timeseries Librato       librato "https://www.librato.com"           "Acquired by SolarWinds" 2011  "SaaS" %}}
