@@ -14,6 +14,7 @@ Use time-series databases to **store** and **visualize** your performance metric
 
 ## Tool Overview
 {{% tools %}}
+  {{% tool timeseries Blueflood     blueflood "http://www.blueflood.io"         "Open Source" 2013  "On Prem" %}}
   {{% tool timeseries Cacti         cacti "http://www.cacti.net"                "Open Source" 2001  "On Prem" %}}
   {{% tool timeseries Circonus      circonus "http://www.circonus.com"          "" 2010  "On Prem & SaaS" %}}
   {{% tool timeseries Cube          cube  "http://square.github.io/cube/"       "Open Source" 2011  "On Prem" %}}
@@ -25,6 +26,7 @@ Use time-series databases to **store** and **visualize** your performance metric
   {{% tool timeseries Librato       librato "https://www.librato.com"           "Acquired by SolarWinds" 2011  "SaaS" %}}
   {{% tool timeseries OpenTSDB      grafana "http://opentsdb.net"               "Open Source" 2010  "On Prem" %}}
   {{% tool timeseries Prometheus    prometheus "http://prometheus.io/"          "Open Source" 2012  "On Prem" %}}
+  {{% tool timeseries "Rackspace Metrics"    rackspace-metrics "http://bit.ly/rax-metrics-overview"   "" 2015 "SaaS" %}}
   {{% tool timeseries RRDtool       rrdtool "https://oss.oetiker.ch/rrdtool"    "Open Source" 1999  "On Prem" %}}
   {{% tool timeseries SignalFX      signalfx "https://signalfx.com/"            "" 2013  "SaaS" %}}
   {{% tool timeseries StatHat       stathat "http://www.stathat.com/"           "" 2011  "SaaS" %}}
