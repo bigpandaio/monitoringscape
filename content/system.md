@@ -35,6 +35,7 @@ System monitoring tools frequently employ a **plugin architecture**, making it e
   {{% tool system OpenNMS   opennms "http://www.opennms.org/"  "Open Source"    2000     "On Prem" %}}
   {{% tool system OpsView   opsview "http://www.opsview.com/"  "Open Source, Forked from Nagios"    2003    "On Prem" %}}
   {{% tool system PRTG      prtg "https://www.paessler.com/prtg"  ""    1997    "On Prem" %}}
+  {{% tool web "Rackspace Monitoring" rackspace-monitoring "http://www.rackspace.com/cloud/monitoring/"  "Multiple UI Portals"    2013    "SaaS" %}}
   {{% tool system Scout     scout "https://scoutapp.com/"  ""    2008    "SaaS" %}}
   {{% tool system Sensu     sensu "https://sensuapp.org/"  "Open Source"    2011    "On Prem" %}}
   {{% tool system ServerDensity   serverdensity "https://www.serverdensity.com/"  "Server monitoring only"    2013    "SaaS" %}}
