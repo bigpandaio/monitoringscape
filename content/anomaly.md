@@ -18,7 +18,8 @@ Anomaly detection tools address this problem. They analyze your system's behavio
 ## Tool Overview
 
 {{% tools %}}
-  {{% tool anomaly "Grok" grok "https://numenta.com/grok/" "Time-series data" 2014 "On Prem" %}}
+  {{% tool anomaly "Anodot" anodot "http://www.anodot.com/" "Time-series data" 2014 "SaaS" %}}
   {{% tool anomaly "Anomaly Detective" detective "http://info.prelert.com/products/anomaly-detective-app" "Log data" 2013 "On Prem" %}}
+  {{% tool anomaly "Grok" grok "https://numenta.com/grok/" "Time-series data" 2014 "On Prem" %}}
   {{% tool anomaly "Skyline" skyline "https://github.com/etsy/skyline" "Time-series data, open source" 2013 "On Prem" %}}
 {{% /tools %}}

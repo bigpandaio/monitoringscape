@@ -23,5 +23,6 @@ On Call Management tools enable this methodology. They consume alerts from your 
 {{% tools %}}
   {{% tool oncall "OpsGenie" opsgenie "https://www.opsgenie.com/" "" 2012 "SaaS" %}}
   {{% tool oncall "PagerDuty" pagerduty "https://www.pagerduty.com/" "" 2010 "SaaS" %}}
-  {{% tool oncall "VictorOps" victorops "https://victorops.com/" "" 2012 "SaaS" %}}
+  {{% tool oncall "VictorOps" victorops "https://www.victorops.com/" "" 2012 "SaaS" %}}
+  {{% tool oncall "xMatters" xmatters "https://www.xmatters.com/" "" 2000 "SaaS" %}}
 {{% /tools %}}

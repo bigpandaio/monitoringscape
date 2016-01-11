@@ -24,7 +24,7 @@ The rise of distributed systems resulted in an **explosion in the number of log 
   {{% tool logging Graylog   graylog "https://www.graylog.org/"   "Open Source"          2010                "On Prem" %}}
   {{% tool logging Logentries  logentries    "https://logentries.com/"       "" 2010     "SaaS" %}}
   {{% tool logging Loggly    loggly    "https://www.loggly.com/"       "" 2009     "SaaS" %}}
-  {{% tool logging Papertrail   papertrail "https://papertrailapp.com/"         ""          2011                "SaaS" %}}
+  {{% tool logging Papertrail   papertrail "https://papertrailapp.com/"         "Acquired by SolarWinds"          2011                "SaaS" %}}
   {{% tool logging Splunk     splunk "http://www.splunk.com/"      ""          2003                "On Prem" %}}
   {{% tool logging SumoLogic  sumologic "https://www.sumologic.com/"      ""          2010                "SaaS" %}}
 {{% /tools %}}
