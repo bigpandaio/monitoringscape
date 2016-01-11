@@ -28,6 +28,7 @@ System monitoring tools frequently employ a **plugin architecture**, making it e
   {{% tool system Ganglia     ganglia "http://ganglia.info/"            "Open Source"    2001     "On Prem" %}}
   {{% tool system Icinga      icinga "https://www.icinga.org/"          "Open Source, Forked from Nagios" 2009       "On Prem" %}}
   {{% tool system LogicMonitor   logicmonitor "http://www.logicmonitor.com/" ""          2009     "SaaS" %}}
+  {{% tool system mackerel  mackerel "https://mackerel.io/" ""          2015     "SaaS" %}}
   {{% tool system Munin     munin "http://munin-monitoring.org/"           "Open Source"    2006     "On Prem" %}}
   {{% tool system Nagios    nagios "https://www.nagios.org/"  "Open Source"     1999      "On Prem" %}}
   {{% tool system OpenNMS   opennms "http://www.opennms.org/"  "Open Source"    2000     "On Prem" %}}
