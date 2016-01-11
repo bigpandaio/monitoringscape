@@ -13,7 +13,8 @@ As the saying goes, **do one thing and do it well**. This category includes moni
   {{% tool specialized "CloudWatch" cloudwatch "http://aws.amazon.com/cloudwatch/" "AWS monitoring, part of AWS" 2007 "SaaS" %}}
   {{% tool specialized "Google Cloud Monitoring" googlecloud "https://cloud.google.com/monitoring/" "Google Compute Engine monitoring, part of Google Cloud" 2014 "SaaS" %}}
   {{% tool specialized "Opsmatic" opsmatic "https://opsmatic.com/" "Change monitoring" 2013 "SaaS" %}}
-  {{% tool web "Rackspace Monitoring" rackspace "http://www.rackspace.com/cloud/monitoring/"  "RackSpace monitoring" 2013  "SaaS" %}}
+  {{% tool specialized "opvizor" opvizor "http://www.opvizor.com" "VMWare VSphere monitoring" 2012 "SaaS" %}}
+  {{% tool specialized "Rackspace Monitoring" rackspace "http://www.rackspace.com/cloud/monitoring/"  "RackSpace monitoring" 2013  "SaaS" %}}
   {{% tool specialized "Runscope" runscope "https://www.runscope.com/" "API monitoring" 2013 "SaaS" %}}
   {{% tool specialized "StackDriver" stackdriver "http://www.stackdriver.com/" "AWS monitoring, acquired by Google." 2012 "SaaS" %}}
   {{% tool specialized "StatusPage.io" statuspage "https://www.statuspage.io/" "Public status pages" 2013 "SaaS" %}}
