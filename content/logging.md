@@ -27,4 +27,5 @@ The rise of distributed systems resulted in an **explosion in the number of log 
   {{% tool logging Papertrail   papertrail "https://papertrailapp.com/"         "Acquired by SolarWinds"          2011                "SaaS" %}}
   {{% tool logging Splunk     splunk "http://www.splunk.com/"      ""          2003                "On Prem" %}}
   {{% tool logging SumoLogic  sumologic "https://www.sumologic.com/"      ""          2010                "SaaS" %}}
+  {{% tool logging Logscape  logscape "https://www.logscape.com/"      ""          2011                "On Prem & SaaS" %}}
 {{% /tools %}}
