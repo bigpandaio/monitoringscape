@@ -28,4 +28,5 @@ The rise of distributed systems resulted in an **explosion in the number of log 
   {{% tool logging Splunk     splunk "http://www.splunk.com/"      ""          2003                "On Prem" %}}
   {{% tool logging SumoLogic  sumologic "https://www.sumologic.com/"      ""          2010                "SaaS" %}}
   {{% tool logging Logscape  logscape "https://www.logscape.com/"      ""          2011                "On Prem & SaaS" %}}
+  {{% tool logging Logz.io  logzio "https://logz.io/"      ""          2015                "SaaS" %}}
 {{% /tools %}}
