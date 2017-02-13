@@ -29,7 +29,7 @@ APM agents perform **code-level instrumentation** and therefore require language
   {{% tool apm "DripStat" dripstat "https://dripstat.com/" "" 2015 "SaaS" %}}
   {{% tool apm "New Relic" newrelic "http://newrelic.com/" "" 2008 "SaaS" %}}
   {{% tool apm "perfino" perfino "http://www.ej-technologies.com/products/perfino/overview.html" "" 2014 "On Prem" %}}
-  {{% tool apm "Ruxit" ruxit "https://www.ruxit.com/" "" 2014 "SaaS" %}}
+  {{% tool apm "Dynatrace Ruxit" ruxit "https://www.dynatrace.com/platform/offerings/ruxit/" "" 2014 "SaaS" %}}
   {{% tool apm "Stackify" stackify "http://stackify.com/" "" 2012 "SaaS" %}}
   {{% tool apm "Takipi" takipi "https://www.takipi.com/" "" 2011 "SaaS" %}}
 {{% /tools %}}
