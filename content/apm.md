@@ -32,4 +32,6 @@ APM agents perform **code-level instrumentation** and therefore require language
   {{% tool apm "Ruxit" ruxit "https://www.ruxit.com/" "" 2014 "SaaS" %}}
   {{% tool apm "Stackify" stackify "http://stackify.com/" "" 2012 "SaaS" %}}
   {{% tool apm "Takipi" takipi "https://www.takipi.com/" "" 2011 "SaaS" %}}
+  {{% tool apm "Sematext Cloud & Enterprise" sematext "https://sematext.com/cloud" "Performance Monitoring, Log Management, Alerting and Anomaly Detection" 2017 "SaaS, On Prem" %}}
+
 {{% /tools %}}
