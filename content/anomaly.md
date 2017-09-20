@@ -22,4 +22,5 @@ Anomaly detection tools address this problem. They analyze your system's behavio
   {{% tool anomaly "Anomaly Detective" detective "http://info.prelert.com/products/anomaly-detective-app" "Log data" 2013 "On Prem" %}}
   {{% tool anomaly "Grok" grok "https://numenta.com/grok/" "Time-series data" 2014 "On Prem" %}}
   {{% tool anomaly "Skyline" skyline "https://github.com/etsy/skyline" "Time-series data, open source" 2013 "On Prem" %}}
+  {{% tool anomaly "Sematext Cloud & Enterprise" sematext "https://sematext.com/cloud" "Performance Monitoring, Log Management, Alerting and Anomaly Detection" 2017 "SaaS, On Prem" %}}
 {{% /tools %}}
